@@ -1,4 +1,3 @@
-// @ts-nocheck
 /* Lo script deve sommare tutti gli elementi che sono in 
 posizione dispari (hanno array index dispari).*/
 
