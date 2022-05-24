@@ -1,4 +1,8 @@
 // @ts-nocheck
+
+
+/* Le due array contengono lo stesso numero di elementi per comodità */
+
 const nomi = ["Aldo", "Marco", "Mario", "Luca", "Fabio"];
 const cognomi = ["Verdi", "Rossi", "Bianchi", "Brambilla", "Greco"];
 
@@ -13,15 +17,9 @@ let cognomeRandom = "";
 
 for (let i = 0; i <= nomi.length; i++) {
     nomeIndex = parseInt(Math.floor(Math.random() * nomi.length));
-    nomeRandom = nomi[nomeIndex];
-    console.log(nomeRandom);
-}
-
-for (let i = 0; i <= cognomi.length; i++) {
     cognomeIndex = parseInt(Math.floor(Math.random() * cognomi.length));
+    nomeRandom = nomi[nomeIndex];
     cognomeRandom = cognomi[cognomeIndex];
-    console.log(cognomeRandom);
+    console.log (`${nomeRandom} ${cognomeRandom}`);
 }
-
-// STAMPO LA SOMMA DI NOMI E COGNOMI RANDOM
 
