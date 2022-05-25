@@ -10,5 +10,5 @@ for (let i = 0; i < elenco.length; i++) {
     if (i % 2 == 1) {
         somma += elenco[i]
     }
-    console.log(somma)
-}
+    
+} console.log(somma)
